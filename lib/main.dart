@@ -84,9 +84,9 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: ElevatedButton(
           onPressed: ()async{
-            final get=get_server_key();
-            String serverToken=await get.server_token();
-            print("Server Key: $serverToken");
+            // final get=get_server_key();
+            // String serverToken=await get.server_token();
+            // print("Server Key: $serverToken");
 
              await http.post(
                     Uri.parse(
