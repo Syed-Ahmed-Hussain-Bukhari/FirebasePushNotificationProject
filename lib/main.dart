@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_fcm_project/firebase_options.dart';
 import 'package:flutter_fcm_project/notificationServices.dart';
-import 'package:flutter_fcm_project/serverKey.dart';
+import 'package:flutter_fcm_project/servKey.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:http/http.dart' as http;
 
